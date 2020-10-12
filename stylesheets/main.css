@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,600);
+
+body{
+    font-family: Montserrat;
+    background-image: url(http://www.allwhitebackground.com/images/7/Cat-Background-Picture.jpeg);
+    background-attachment: fixed;
+}
+
+header{
+    display: flexbox;
+    margin-bottom: 5%;
+}
+
+header>h1{
+    font-size: 4em;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: orange;
+    text-shadow: 2px 2px black;
+}
+
+.logo{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    padding-top: 20px;
+    text-align: left;
+    width: 5em;
+}
+.search{
+    margin-top: 2em;
+    margin-right: 2em;
+    text-align: right;
+    size: calc(100%-1em);
+}
+
+article img{
+    width: 200px;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    text-align: center;
+}
+
+article{
+    background-color: white;
+    margin-top: 10%;
+    border-radius: 40px;
+    width: 500px;
+    margin: 1% auto 5%;
+    padding-bottom: 20px;
+}
+
+.text a{
+    text-decoration: none;
+    color: black;
+}
+
+article .price{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.green-container{
+    background: rgb(204, 118, 7);
+    box-shadow: 2px 2px rgb(75, 39, 6);
+    width: 150px;
+    display: block;
+    border-radius: 20px;
+    padding: 0.1em;
+    text-decoration: none;
+    margin: 1% auto 1px;
+    position: relative;
+    z-index: 4;
+}
