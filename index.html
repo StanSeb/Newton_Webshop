@@ -6,12 +6,13 @@
     <title>Newton Webshop</title>
     <link rel="stylesheet" href="stylesheets/main.css">
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/eb137f63c7.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
-        <img src="imgs/newton-logo-platta-jpg.jpg" class="logo" alt="logo">
-        <h1>Newton Webshop</h1>
+        <h1><a href="index.html">Newton Webshop</a></h1>
+        <a href="cart"><i class="fas fa-shopping-cart"></i></a>
         <div class="search">
             <input type="text">
             <button>Search</button>
@@ -20,7 +21,7 @@
     <main>
         <section>
             <article>
-                <a href="#article-1">
+                <a href="article_1.html">
                     <img src="imgs/kong-kattmynta-spray.jpeg">
                      </a>
                 <div class="text">     
@@ -28,13 +29,14 @@
                         <h2>Kattmynta</h2>
                     </a>     
                     <p>Lagomt mycket kattmynta gör katten snäll och busig!</p>
-                    <div class="green-container">
-                        <p class="price">Pris: 123kr</p>
+                    <p class="price">Pris: 123kr</p>
+                    <div class="plus">
+                        <i class="fas fa-plus" onclick="addToBasket()"></i>
                     </div>    
                 </div>
             </article>
             <article>
-                <a href="#article-2">
+                <a href="article_2.html">
                     <img src="imgs/kattleksak-mekanisk-mus-gra.jpeg">
                 </a>
                 <div class="text">
@@ -42,12 +44,21 @@
                     <h2>Mekanisk mus</h2>
                     </a>
                     <p>Piggar upp när katten känner sig deppig!</p>
-                        <div class="green-container">
-                            <p class="price">Pris: 234kr</p>
-                        </div>    
+                    <p class="price">Pris: 234kr</p>
+                    <div class="plus">
+                        <i class="fas fa-plus"></i>
+                    </div>    
                 </div>
             </article>
         </section>
+
+        <footer>
+                <ul>
+                    <a href="https://www.newton.se/" target="_blank"><li><i class="fas fa-question"></i><p>Information</p></li></a>
+                    <a href="https://www.newton.se/kontakta-oss/" target="_blank"><li><i class="fas fa-address-book"></i><p>Contact</p></li></a>
+                    <a href="https://goo.gl/maps/UXGNgwPWUvFvFhPRA" target="_blank"><li><i class="fas fa-map-marker-alt"></i><p>Find us</p></li></a>
+                </ul>
+        </footer>
     </main>
 </body>
 </html>
